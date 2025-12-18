@@ -206,14 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Xcode user-specific files
-**/xcuserdata/
-**/*.xcworkspace/xcuserdata/
-
-# Build products
-**/Builds/**/build/
-**/Builds/**/DerivedData/
-
-# Keep Projucer files and Xcode projects
-!**/*.jucer
-!**/Builds/MacOSX/*.xcodeproj/
+# JUCE/Projucer
+**/Builds/
+**/JuceLibraryCode/
